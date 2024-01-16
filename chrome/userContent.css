@@ -1,0 +1,7 @@
+@-moz-document url(chrome://browser/content.browser.xul), url(about:newtab), url(about:home), url(about:privatebrowsing) {
+    @media (prefers-color-scheme: dark){
+        body{
+            --newtab-background-color: #141414 !important;
+        }
+    }
+}
